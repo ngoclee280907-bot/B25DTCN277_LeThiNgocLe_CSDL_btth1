@@ -81,6 +81,4 @@ join courses c on t.teacher_id = c.teacher_id
 set t.salary = t.salary * 1.10
 where c.course_name like '%IT%';
 
-drop table enrollmants;
-
 
